@@ -34,10 +34,11 @@ Copy this file "europarl_language_index.txt" and the other script "europarl_dire
 In the subdirectories in there make two empty directories like the following:
 
 ```
-...en_fr/en/processed and .../en_fr/fr/processed.
+.../en_fr/en/processed
+.../en_fr/fr/processed
 ```
 
-Then run the script like the following:
+Then run the script like:
 
 ```
 .../en_fr$ perl europarl_direct_ctags.pl ./fr ./en ./fr/processed ./en/processed EN yes correct
